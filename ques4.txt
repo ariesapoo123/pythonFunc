@@ -1,0 +1,16 @@
+def power(a,b):
+    count = 1
+    if b == 1:
+        return a
+    if b != 1:
+        return a *power(a,b-1)
+a = int(input("enter the value of a"))
+b = int(input("enter the value of b"))
+print("the result is {}".format(power(a,b)))
+
+
+output
+
+enter the value of a4
+enter the value of b5
+the result is 1024
